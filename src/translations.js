@@ -20,16 +20,64 @@
 export default {
     'interface': {
         'en': {
-            'arduinoUno.description': 'A great board to get started with electronics and coding.'
+            'arduinoUno.description': 'A great board to get started with electronics and coding.',
+            'arduinoUno.examples.blink.name': 'Blink',
+            'arduinoUno.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoUno.examples.button.name': 'Button',
+            'arduinoUno.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoUno.examples.fade.name': 'Fade',
+            'arduinoUno.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoUno.examples.knob.name': 'Knob',
+            'arduinoUno.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoUno.examples.servoSweep.name': 'Servo Sweep',
+            'arduinoUno.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoUno.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoUno.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.'
         },
         'ru': {
-            'arduinoUno.description': 'Отличная плата для начала работы с электроникой и программированием.'
+            'arduinoUno.description': 'Отличная плата для начала работы с электроникой и программированием.',
+            'arduinoUno.examples.blink.name': 'Мигание',
+            'arduinoUno.examples.blink.description': 'Заставьте встроенный светодиод мигать.',
+            'arduinoUno.examples.button.name': 'Кнопка',
+            'arduinoUno.examples.button.description': 'Зажигайте светодиод, пока нажата кнопка.',
+            'arduinoUno.examples.fade.name': 'Плавное затухание',
+            'arduinoUno.examples.fade.description': 'Плавное затухание светодиода с помощью ШИМ.',
+            'arduinoUno.examples.knob.name': 'Регулятор',
+            'arduinoUno.examples.knob.description': 'Регулировка яркости светодиода с помощью потенциометра.',
+            'arduinoUno.examples.servoSweep.name': 'Развертка серво',
+            'arduinoUno.examples.servoSweep.description': 'Поворот серво вперед и назад между 0° и 180°.',
+            'arduinoUno.examples.serialMonitor.name': 'Монитор порта',
+            'arduinoUno.examples.serialMonitor.description': 'Печать аналоговых показаний в монитор порта каждые полсекунды.'
         },
         'zh-cn': {
-            'arduinoUno.description': '很好的电子编程入门控制板。'
+            'arduinoUno.description': '很好的电子编程入门控制板。',
+            'arduinoUno.examples.blink.name': '闪烁',
+            'arduinoUno.examples.blink.description': '让板载 LED 闪烁。',
+            'arduinoUno.examples.button.name': '按键',
+            'arduinoUno.examples.button.description': '按住按键时点亮 LED。',
+            'arduinoUno.examples.fade.name': '呼吸灯',
+            'arduinoUno.examples.fade.description': '用 PWM 让 LED 缓缓变亮再渐渐变暗。',
+            'arduinoUno.examples.knob.name': '电位器调光',
+            'arduinoUno.examples.knob.description': '用电位器调节 LED 的亮度。',
+            'arduinoUno.examples.servoSweep.name': '舵机来回扫描',
+            'arduinoUno.examples.servoSweep.description': '让舵机在 0° 到 180° 之间来回转动。',
+            'arduinoUno.examples.serialMonitor.name': '串口监视器',
+            'arduinoUno.examples.serialMonitor.description': '每半秒把模拟引脚的数值打印到串口监视器上。'
         },
         'zh-tw': {
-            'arduinoUno.description': '很好的電子編程入門控制板。'
+            'arduinoUno.description': '很好的電子編程入門控制板。',
+            'arduinoUno.examples.blink.name': '閃爍',
+            'arduinoUno.examples.blink.description': '讓板載 LED 閃爍。',
+            'arduinoUno.examples.button.name': '按鍵',
+            'arduinoUno.examples.button.description': '按住按鍵時點亮 LED。',
+            'arduinoUno.examples.fade.name': '呼吸燈',
+            'arduinoUno.examples.fade.description': '用 PWM 讓 LED 緩緩變亮再漸漸變暗。',
+            'arduinoUno.examples.knob.name': '電位器調光',
+            'arduinoUno.examples.knob.description': '用電位器調節 LED 的亮度。',
+            'arduinoUno.examples.servoSweep.name': '舵機來回掃描',
+            'arduinoUno.examples.servoSweep.description': '讓舵機在 0° 到 180° 之間來回轉動。',
+            'arduinoUno.examples.serialMonitor.name': '串口監視器',
+            'arduinoUno.examples.serialMonitor.description': '每半秒把類比引腳的數值印出到串口監視器上。'
         }
     },
     'extensions': {
