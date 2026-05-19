@@ -18,8 +18,7 @@ const SERIAL_CONFIG = {
 
 const DIVECE_OPT = {
     type: 'arduino',
-    fqbn: 'arduino:avr:uno',
-    firmware: 'arduinoUno.hex'
+    fqbn: 'arduino:avr:uno'
 };
 
 const Pins = {
