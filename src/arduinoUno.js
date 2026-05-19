@@ -1,4 +1,4 @@
-const { formatMessage, ArgumentType, BlockType, ProgramModeType, ArduinoPeripheral } = window.Scratch;
+const {formatMessage, ArgumentType, BlockType, ProgramModeType, ArduinoPeripheral} = window.Scratch;
 
 const PNPID_LIST = [
     // https://github.com/arduino/Arduino/blob/1.8.0/hardware/arduino/avr/boards.txt#L51-L58
